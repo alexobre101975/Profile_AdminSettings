@@ -11,7 +11,7 @@ Test Profile Admin_Settings
        Open App
 #  NGG-TC-155
     Home - Admin Settings
-#    NGG-TC-156
+#   NGG-TC-156
     App Version - Admin Settings
 #   NGG-TC-159
     Tuning File Reader - Admin Settings
