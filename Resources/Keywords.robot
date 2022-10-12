@@ -22,9 +22,8 @@ Open App
   ...   packageName=${PACKAGE_NAME}
 
 
-#  NGG-TC-155
-Home - Admin Settings
-
+#  NGG-TC-39
+Home Admin Settings
     Press Keycode   20
     Press Keycode   20
     Press Keycode   20
@@ -37,9 +36,12 @@ Home - Admin Settings
     Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvAppName
     Element Should Be Visible           id=com.sentrics.engage360:id/tvAppName            Profile
 
-#  NGG-TC-156
-App Version - Admin Settings
-
+#  NGG-TC-38
+App Version Admin Settings
+    Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvAppName
+    Element Should Be Visible            id=com.sentrics.engage360:id/tvAppName          Back Up / Restore
+    Wait Until Element Is Visible        id=com.sentrics.engage360:id/tvAppName
+    Element Should Be Visible            id=com.sentrics.engage360:id/tvAppName          App Version
     Press Keycode       22
     Press Keycode       23
 
@@ -48,8 +50,8 @@ App Version - Admin Settings
     Wait Until Element Is Visible            id=com.sentrics.engage360:id/btnUpdateManager
     Press Keycode          4
 
- #  NGG-TC-159
-Tuning File Reader - Admin Settings
+ #  NGG-TC-35
+Tuning File Reader Admin Settings
     Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvAppName
     Element Should Be Visible           id=com.sentrics.engage360:id/tvAppName         Back Up / Restore
     Press Keycode       20
@@ -64,8 +66,8 @@ Tuning File Reader - Admin Settings
     Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvAppName
     Element Should Be Visible           id=com.sentrics.engage360:id/tvAppName          Back Up / Restore
 
- #  NGG-TC-158
-Unsubscribe - Admin Settings
+ #  NGG-TC-36
+Unsubscribe Admin Settings
     Press Keycode       20
     Press Keycode       20
     Press Keycode       23
@@ -95,8 +97,8 @@ Unsubscribe - Admin Settings
     Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvAppName
     Element Should Be Visible            id=com.sentrics.engage360:id/tvAppName           Back Up / Restore
 
-#  NGG-TC-157
-Reboot - Admin Settings
+#  NGG-TC-37
+Reboot Admin Settings
     Press Keycode    22
     Press Keycode    20
     Press Keycode    23

@@ -9,13 +9,13 @@ Suite Teardown    Close All Applications
 Test Profile Admin_Settings
        [Tags]    Automation
        Open App
-#  NGG-TC-155
-    Home - Admin Settings
-#   NGG-TC-156
-    App Version - Admin Settings
-#   NGG-TC-159
-    Tuning File Reader - Admin Settings
- #  NGG-TC-158
-    Unsubscribe - Admin Settings
-#  NGG-TC-157
-    Reboot - Admin Settings
+#  NGG-TC-39
+    Home Admin Settings
+#   NGG-TC-38
+    App Version Admin Settings
+#   NGG-TC-35
+    Tuning File Reader Admin Settings
+ #  NGG-TC-36
+    Unsubscribe Admin Settings
+#  NGG-TC-37
+    Reboot Admin Settings
